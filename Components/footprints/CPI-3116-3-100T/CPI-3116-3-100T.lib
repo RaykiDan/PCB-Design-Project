@@ -1,0 +1,45 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# CPI-3116-3-100T
+#
+DEF CPI-3116-3-100T LS 0 40 N N 1 L N
+F0 "LS" -151 351 50 H V L BNN
+F1 "CPI-3116-3-100T" -150 -451 50 H V L BNN
+F2 "XDCR_CPI-3116-3-100T" 0 0 50 H I L BNN
+F3 "" 0 0 50 H I L BNN
+F4 "Same Sky" 0 0 50 H I L BNN "MF"
+F5 "16.9mm" 0 0 50 H I L BNN "MAXIMUM_PACKAGE_HEIGHT"
+F6 "None" 0 0 50 H I L BNN "Package"
+F7 "None" 0 0 50 H I L BNN "Price"
+F8 "https://www.snapeda.com/parts/CPI-3116-3-100T/Same+Sky/view-part/?ref=eda" 0 0 50 H I L BNN "Check_prices"
+F9 "Manufacturer Recommendations" 0 0 50 H I L BNN "STANDARD"
+F10 "1.0" 0 0 50 H I L BNN "PARTREV"
+F11 "https://www.snapeda.com/parts/CPI-3116-3-100T/Same+Sky/view-part/?ref=snap" 0 0 50 H I L BNN "SnapEDA_Link"
+F12 "CPI-3116-3-100T" 0 0 50 H I L BNN "MP"
+F13 "\n                        \n                            31 mm, 3.5 Vdc, 97 dB, Through Hole, Piezo Audio Indicator Buzzer\n                        \n" 0 0 50 H I L BNN "Description"
+F14 "In Stock" 0 0 50 H I L BNN "Availability"
+F15 "CUI Devices" 0 0 50 H I L BNN "MANUFACTURER"
+DRAW
+P 2 0 0 6 -25 50 0 50 N
+P 2 0 0 6 0 50 25 50 N
+P 2 0 0 6 25 50 25 -50 N
+P 2 0 0 6 25 -50 0 -50 N
+P 2 0 0 6 0 -50 -25 -50 N
+P 2 0 0 6 -25 -50 -25 50 N
+P 2 0 0 6 25 50 75 125 N
+P 2 0 0 6 75 125 75 -125 N
+P 2 0 0 6 75 -125 25 -50 N
+P 2 0 0 6 0 50 0 100 N
+P 2 0 0 6 0 -50 0 -100 N
+P 2 0 0 6 -100 125 -100 75 N
+P 2 0 0 6 -125 100 -75 100 N
+P 2 0 0 6 -125 -100 -75 -100 N
+X ~ P 0 200 100 D 40 40 0 0 P 
+X ~ N 0 -200 100 U 40 40 0 0 P 
+ENDDRAW
+ENDDEF
+#
+# End Library

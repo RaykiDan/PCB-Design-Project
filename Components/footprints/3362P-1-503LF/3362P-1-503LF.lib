@@ -1,0 +1,47 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# 3362P-1-503LF
+#
+DEF 3362P-1-503LF VR 0 40 Y N 1 L N
+F0 "VR" -401 100 50 H V L BNN
+F1 "3362P-1-503LF" -400 -301 50 H V L BNN
+F2 "TRIM_3362P-1-503LF" 0 0 50 H I L BNN
+F3 "" 0 0 50 H I L BNN
+F4 "Bourns" 0 0 50 H I L BNN "MF"
+F5 "\n                        \n                            TRIMMER, 50K; Track Resistance:50kohm; No. of Turns:1Turns; Potentiometer Mounting:Through Hole; Product Range:Trimpot 3362 Series; Power Rating:500mW; Resistance Tolerance:± 10%; Temperature Coefficient:± 100ppm/°C; Automotive Qualification Standard:-; MSL:-; SVHC:Lead (15-Jan-2019); Adjustment Type:Screwdriver Slot; Contact Resistance Variation +:1%; End Resistance:500ohm; External Length / Height:4.7mm; Full Power Rating Temperature:70°C; Lead Diameter:0.46mm; Operating Temperature Max:125°C; Operating Temperature Min:-55°C; Operating Temperature Range:-55°C to +125°C; Proof Voltage:900V; Resistance:50kohm; Resistor Element Material:Cermet; Rotation Mechanical Angle:240°; Temperature Coeff. +:100ppm/°C; Temperature Coeff. -:100ppm/°C; Tolerance +:10%; Tolerance -:10%; Track Taper:Linear; Voltage Rating:300V; Voltage Rating V DC:300V\n                        \n" 0 0 50 H I L BNN "Description"
+F6 "3362P-1 Bourns Inc." 0 0 50 H I L BNN "Package"
+F7 "None" 0 0 50 H I L BNN "Price"
+F8 "Manufacturer Recommendation" 0 0 50 H I L BNN "STANDARD"
+F9 "08/26/10" 0 0 50 H I L BNN "PARTREV"
+F10 "https://www.snapeda.com/parts/3362P1503LF/Bourns/view-part/?ref=snap" 0 0 50 H I L BNN "SnapEDA_Link"
+F11 "3362P1503LF" 0 0 50 H I L BNN "MP"
+F12 "In Stock" 0 0 50 H I L BNN "Availability"
+F13 "https://www.snapeda.com/parts/3362P1503LF/Bourns/view-part/?ref=eda" 0 0 50 H I L BNN "Check_prices"
+DRAW
+P 2 0 0 6 -200 0 -180 0 N
+P 2 0 0 10 -180 0 -150 40 N
+P 2 0 0 10 -150 40 -100 -50 N
+P 2 0 0 10 -100 -50 -50 40 N
+P 2 0 0 10 -50 40 0 -50 N
+P 2 0 0 10 0 -50 50 40 N
+P 2 0 0 10 50 40 100 -50 N
+P 2 0 0 10 100 -50 150 40 N
+P 2 0 0 10 150 40 180 0 N
+P 2 0 0 6 180 0 200 0 N
+P 2 0 0 8 0 -50 50 -100 N
+P 2 0 0 8 -50 -100 0 -50 N
+P 2 0 0 8 50 -100 -50 -100 N
+P 2 0 0 6 -185 -80 -85 -80 N
+P 2 0 0 6 -85 -80 -135 -105 N
+P 2 0 0 6 -135 -105 -135 -55 N
+P 2 0 0 6 -135 -55 -85 -80 N
+X ~ 1 -400 0 200 R 40 40 0 0 P 
+X ~ 2 0 -300 200 U 40 40 0 0 P 
+X ~ 3 400 0 200 L 40 40 0 0 P 
+ENDDRAW
+ENDDEF
+#
+# End Library

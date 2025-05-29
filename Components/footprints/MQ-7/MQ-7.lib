@@ -1,0 +1,36 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# MQ-7
+#
+DEF MQ-7 A 0 40 Y Y 1 L N
+F0 "A" -300 235 50 H V L BNN
+F1 "MQ-7" -300 -300 50 H V L BNN
+F2 "XDCR_MQ-7" 0 0 50 H I L BNN
+F3 "" 0 0 50 H I L BNN
+F4 "Hanwei Electronics Co., Ltd" 0 0 50 H I L BNN "MF"
+F5 "10 mm" 0 0 50 H I L BNN "MAXIMUM_PACKAGE_HEIGHT"
+F6 "Package" 0 0 50 H I L BNN "Package"
+F7 "None" 0 0 50 H I L BNN "Price"
+F8 "https://www.snapeda.com/parts/MQ-7/Hanwei+Electronics+Co.%252C+Ltd/view-part/?ref=eda" 0 0 50 H I L BNN "Check_prices"
+F9 "Manufacturer Recommendations" 0 0 50 H I L BNN "STANDARD"
+F10 "N/A" 0 0 50 H I L BNN "PARTREV"
+F11 "https://www.snapeda.com/parts/MQ-7/Hanwei+Electronics+Co.%252C+Ltd/view-part/?ref=snap" 0 0 50 H I L BNN "SnapEDA_Link"
+F12 "MQ-7" 0 0 50 H I L BNN "MP"
+F13 "\n                        \n                            Gas Sensor, High sensitivity to carbon monoxide\n                        \n" 0 0 50 H I L BNN "Description"
+F14 "Not in stock" 0 0 50 H I L BNN "Availability"
+F15 "Hanwei Electronics" 0 0 50 H I L BNN "MANUFACTURER"
+DRAW
+S -300 -200 300 200 0 0 10 f
+X A 4 -500 -100 200 R 40 40 0 0 I 
+X A 6 -500 -100 200 R 40 40 0 0 I 
+X B 1 500 -100 200 L 40 40 0 0 O 
+X B 3 500 -100 200 L 40 40 0 0 O 
+X H 2 500 100 200 L 40 40 0 0 W 
+X H 5 500 100 200 L 40 40 0 0 W 
+ENDDRAW
+ENDDEF
+#
+# End Library

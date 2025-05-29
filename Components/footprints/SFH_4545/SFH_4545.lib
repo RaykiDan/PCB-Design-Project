@@ -1,0 +1,51 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# SFH_4545
+#
+DEF SFH_4545 D 0 40 Y N 1 L N
+F0 "D" -140 190 50 H V L BNN
+F1 "SFH_4545" -140 -130 50 H V L BNN
+F2 "DIO_SFH_4545" 0 0 50 H I L BNN
+F3 "" 0 0 50 H I L BNN
+F4 "OSRAM Opto" 0 0 50 H I L BNN "MF"
+F5 "\n                        \n                            Infrared (IR) Emitter 950nm 1.5V 100mA 550mW/sr @ 100mA 10° Radial\n                        \n" 0 0 50 H I L BNN "Description"
+F6 "None" 0 0 50 H I L BNN "Package"
+F7 "None" 0 0 50 H I L BNN "Price"
+F8 "https://www.snapeda.com/parts/SFH%204545/OSRAM/view-part/?ref=eda" 0 0 50 H I L BNN "Check_prices"
+F9 "Manufacturer Recommendations" 0 0 50 H I L BNN "STANDARD"
+F10 "1.5" 0 0 50 H I L BNN "PARTREV"
+F11 "https://www.snapeda.com/parts/SFH%204545/OSRAM/view-part/?ref=snap" 0 0 50 H I L BNN "SnapEDA_Link"
+F12 "SFH 4545" 0 0 50 H I L BNN "MP"
+F13 "In Stock" 0 0 50 H I L BNN "Availability"
+F14 "OSRAM" 0 0 50 H I L BNN "MANUFACTURER"
+DRAW
+P 2 0 0 10 -100 60 -100 0 N
+P 2 0 0 10 -100 0 -100 -60 N
+P 2 0 0 10 -100 -60 0 0 N
+P 2 0 0 10 0 0 -100 60 N
+P 2 0 0 10 0 60 0 -60 N
+P 2 0 0 6 -100 0 -200 0 N
+T 0 40 80 40 0 0 0 IR Normal 0 L B
+P 2 0 0 10 40 160 -30 80 N
+P 2 0 0 10 27 122 5 141 N
+P 2 0 0 10 5 141 40 160 N
+P 2 0 0 10 40 160 27 122 N
+P 2 0 0 10 27 122 28 151 N
+P 2 0 0 10 28 151 23 151 N
+P 2 0 0 10 12 138 21 144 N
+P 2 0 0 10 -9 164 -79 84 N
+P 2 0 0 10 -22 126 -44 145 N
+P 2 0 0 10 -44 145 -9 164 N
+P 2 0 0 10 -9 164 -22 126 N
+P 2 0 0 10 -22 126 -21 155 N
+P 2 0 0 10 -21 155 -26 155 N
+P 2 0 0 10 -37 142 -28 148 N
+X ~ A -300 0 100 R 40 40 0 0 P 
+X ~ C 200 0 200 L 40 40 0 0 P 
+ENDDRAW
+ENDDEF
+#
+# End Library
